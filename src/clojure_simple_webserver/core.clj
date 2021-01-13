@@ -1,4 +1,4 @@
-(ns communication-service.core
+(ns clojure-simple-webserver.core
   (:require [org.httpkit.server :refer [run-server]]
             [clj-time.core :as t]
             [compojure.core :refer :all]

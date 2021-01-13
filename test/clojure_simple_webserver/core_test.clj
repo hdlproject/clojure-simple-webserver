@@ -1,6 +1,6 @@
-(ns communication-service.core-test
+(ns clojure-simple-webserver.core-test
   (:require [clojure.test :refer :all]
-            [communication-service.core :refer :all]))
+            [clojure-simple-webserver.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

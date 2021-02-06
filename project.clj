@@ -6,7 +6,8 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [http-kit "2.2.0"]
                  [clj-time "0.14.0"]
-                 [compojure "1.6.0"]]
+                 [compojure "1.6.0"]
+                 [clj-http "3.12.0"]]
   :main ^:skip-aot clojure-simple-webserver.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot      :all

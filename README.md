@@ -1,4 +1,18 @@
-clojure-simple-webserver
+# Clojure Simple Webserver
+
+## How to Run
+### Leiningen
+```shell script
+$ COVID19_SERVICE_ADDRESS=https://api.covid19api.com lein run
+```
+### Docker
+```shell script
+$ docker build -t clojure-simple-webserver .
+$ docker run \
+  -e COVID19_SERVICE_ADDRESS="https://api.covid19api.com" \
+  -p 8080:8080 \
+  clojure-simple-webserver
+```
 
 ## License
 
